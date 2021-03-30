@@ -1,0 +1,106 @@
+BODY{
+	margin:0;
+	padding: 0;
+}
+HTML,BODY{
+	width:100%;
+	height:100%;
+	font-size:14px;
+	font-weight:normal;
+}
+
+.back{
+	width:100%;
+	height:100%;
+	background-image: url(../images/cover.jpg);
+	background-size: 100% 200%;
+	position:relative;
+	background-color:black;
+	overflow-y:auto;
+}
+
+.nav{
+	width:350px;
+	height:auto;
+	background-color:none;
+	position:left;
+	top:10%;
+	
+	
+}
+
+.nav a{
+	text-decoration:none;
+	font-size:28px;
+	font-family:Century Gothic;
+	font-weight:bold;
+	
+	height:90px;
+	margin:5px 0;
+	float:left;
+	background-color:black;
+	color:white;
+	line-height:90px;
+	text-align:CENTER;
+	display:inline-block;
+	transition:250ms;
+	opacity:0.9;
+}
+a.active, .nav a:hover{
+	background-color:white;
+	color:black;
+	width:100%;
+}
+.a{
+	width:95%;
+}
+.b{
+	width:75%;
+}
+.c{
+
+	width:70%;
+}
+.d{
+	width:75%;
+}
+.e{
+	width:80%;
+}
+.f{
+	width:90%;
+}
+
+
+.footer{
+	padding:30px;
+	font-size:12px;
+	background-color:#e8491d;
+	color:#ffffff;
+	text-align:CENTER;
+}
+.myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+.myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+.table{
+	background-image:url(../images/hover.jpg);
+}
+.table:hover{
+	background-image:url(../images/bg_lightwoodfloor.jpg);
+}

@@ -1,0 +1,71 @@
+<!DocType>
+<HTML>
+<HEAD>
+<meta charset="utf-8"/>
+<TITLE> Contact | Me</TITLE>
+<!------------JAVASCRIPT---------------->
+<SCRIPT >
+function clickEvent(){
+	var user=document.getElementById("user").value;
+	var user1=document.getElementById("user1").value;
+	var email=document.getElementById("email").value;
+	var tel=document.getElementById("tel").value;
+	var comment=document.getElementById("comment").value;
+
+	if(user!="" && user1!= "" && email!= "" && tel!= "" && comment!=""){
+		alert("Well done!!! your FORM has been submitted");
+	}else{
+		alert("Sorry!!! All field must be filled up properly to proceed further")
+	}
+}
+</SCRIPT>
+</HEAD>
+<!---------------------------------HTML---------------------------------->
+<BODY>
+	<link rel="stylesheet" type="text/css" href="../css/ContactUs.css">
+<DIV class="background">
+<marquee style="color:yellow " bgcolor="black"> <h4> Thank You For Your Support!!! </h4></marquee>
+	<DIV class="nav">
+<a class="a" href="home1.HTML">HOME</a>
+<a class="b" href="blog.HTML">BLOG</a>
+<a class="c" href="portfolio.HTML">CV</a>
+<a class="d active" href="Aboutme.HTML">PORTFOLIO</a>
+<a class="e" href="Research.HTML">RESEARCH</a>
+	</DIV>
+</DIV>
+	<CENTER>	
+<!--------This is the class for FOOTER----------->	
+	<DIV class="FOOTER">
+		<DIV class="footer1">
+			<DIV class="footer2">&copy;&#153Copyright 2018 <span style="color:black"> All Right Reserved @Yubin Pokhrel</span>
+			</DIV>
+		</DIV>
+	</CENTER>
+	<!-----Giving class for the contacting FORM ------->
+<DIV class="Feedback">
+<img src="../images/yubin1.jpeg" class="avatar">
+	<h1>Send Me Feedback</h1>
+	<p>First Name</p>
+<input type="text" name="user"  id="user" placeholder="Enter Your First Name" required>
+	<p>Last Name</p>
+<input type="text" name="user1" id="user1"  placeholder="Enter Your Last Name" required>
+	<p>Email </p>
+<input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+	<p>Phone Number </p>
+<input type="tel" id="tel" name="tel" placeholder="Enter Your contact number" required>
+	<p>Feedback </p>
+​<textarea id="comment" rows="8" cols="36"  name="comment" placeholder="Write Your Comment " required></textarea>
+	<br>
+	<br>
+<input type="button" value="Submit" onclick="clickEvent()"  />
+	</br> 
+<a href ="https://www.facebook.com/yubinpokhrel7310" target="facebook">Follow me On Facebook</a><br>
+	<FOOTER>
+		<br>&copy;&#153; Yubinpokhrel80@gmail.com</br>
+		</FORM>
+	</FOOTER>
+</DIV>
+</BODY>
+</HTML>
+
+
